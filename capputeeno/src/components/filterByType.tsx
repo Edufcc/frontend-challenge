@@ -1,5 +1,5 @@
-import { useFilter } from "@/hooks/useFilter"
-import { FilterType } from "@/types/filterTypes"
+import { useFilter } from "@/hooks/useFilter";
+import { FilterType } from "@/types/filterTypes";
 import { styled } from "styled-components"
 
 interface FilterItemProps{
