@@ -1,6 +1,8 @@
-import { useFilter } from "@/hooks/useFilter";
-import { FilterType } from "@/types/filterTypes";
 import { styled } from "styled-components"
+
+import { useFilter } from "@/hooks/useFilter";
+
+import { FilterType } from "@/types/filterTypes";
 
 interface FilterItemProps{
     selected: boolean

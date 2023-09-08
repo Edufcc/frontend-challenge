@@ -1,6 +1,8 @@
-import { convertPrice } from "@/utils/formatPrice"
-import { useRouter } from "next/navigation"
 import { styled } from "styled-components"
+
+import { useRouter } from "next/navigation"
+
+import { convertPrice } from "@/utils/formatPrice"
 
 interface ProductCardProps {
     image: string,

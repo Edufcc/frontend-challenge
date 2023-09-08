@@ -1,10 +1,13 @@
 "use client"
 
 import { styled } from "styled-components"
-import { Saira_Stencil_One } from 'next/font/google'
-import { PrimaryInputWSearchIcon } from "./primaryInput"
-import { CartControl } from "./cartControl"
+
 import { useFilter } from "@/hooks/useFilter"
+
+import { Saira_Stencil_One } from 'next/font/google'
+
+import { CartControl } from "../cart/cartControl"
+import { PrimaryInputWSearchIcon } from "./primaryInput"
 
 const sairaStencil = Saira_Stencil_One({
     weight: ['400'],

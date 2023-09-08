@@ -1,7 +1,11 @@
-import { styled } from "styled-components"
-import { ArrowIcon } from "./icons/arrowIcon"
 import { useState } from "react"
+
+import { styled } from "styled-components"
+
+import { ArrowIcon } from "../icons/arrowIcon"
+
 import { useFilter } from "@/hooks/useFilter"
+
 import { PriorityTypes } from "@/types/priorityTypes"
 
 const Container = styled.div`

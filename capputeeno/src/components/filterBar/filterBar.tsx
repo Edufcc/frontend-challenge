@@ -1,12 +1,9 @@
 "use client";
 
 import { styled } from "styled-components";
+
 import { FilterByType } from "./filterByType";
 import { FilterByPriority } from "./filterByPriority";
-
-interface FilterBarProps {
-
-}
 
 const FilterContainer = styled.div`
     display: flex;
@@ -15,7 +12,7 @@ const FilterContainer = styled.div`
     justify-content: space-between;
 `
 
-export function FilterBar(props: FilterBarProps) {
+export function FilterBar() {
     return (
         <FilterContainer>
             <FilterByType />

@@ -1,8 +1,10 @@
 "use client"
 
-import { useProducts } from "@/hooks/useProducts";
-import { ProductCard } from "./productCard";
 import { styled } from "styled-components";
+
+import { ProductCard } from "./productCard";
+
+import { useProducts } from "@/hooks/useProducts";
 
 const ListContainer = styled.div`
     display: grid;
