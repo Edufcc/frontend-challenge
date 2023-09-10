@@ -3,6 +3,12 @@
 This is my solution repository, from the [Rocketseat challenge](https://github.com/Rocketseat/frontend-challenge), I solved this challenge to develop myself,
 and put my skills into practice.
 
+<img src="github/prototipo (1).png">
+
+<img src="github/prototipo (2).png">
+
+<img src="github/prototipo (3).png">
+
 # 💡 About
 
 I challenged myself to do this job challenge, to test my knowledge and skills as a frontend developer, 
